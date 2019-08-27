@@ -94,6 +94,7 @@ import UIKit
         }
         var testString2=testString
         testString2 += testString
+        testString2 += testString
         print(testString2)
     }
 }

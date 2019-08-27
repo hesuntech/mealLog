@@ -87,8 +87,13 @@ import UIKit
     }
     
     private func updateSeletedButtonStatus() {
+        let testString="to test"
+        
         for (index, button) in ratingButtons.enumerated() {
             button.isSelected = index<rating
         }
+        var testString2=testString
+        testString2 += testString
+        print(testString2)
     }
 }

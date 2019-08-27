@@ -10,6 +10,7 @@ import UIKit
 
 @IBDesignable class RatingControl: UIStackView {
     //MARK: properties
+    //
     private var ratingButtons = [UIButton]()
     var rating = 0 {
         didSet {updateSeletedButtonStatus()}

@@ -96,5 +96,6 @@ import UIKit
         testString2 += testString
         testString2 += testString
         print(testString2)
+        testString2 += testString
     }
 }
